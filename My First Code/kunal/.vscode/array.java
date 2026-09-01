@@ -58,6 +58,24 @@
 //=======================================================================================================================================================
              
     
+import java.util.*;
+public class array {  
+    public static void  main (String[] args) {
+        
+        int[]digit = new int[10];
+        digit[0] = 1;
+        digit[1] = 2;
+        digit[2] = 3;
+        digit[3] = 4;
+        digit[4] = 5;
+        digit[5] = 6;
+        for(int i=0;i<digit.length;i++){
+            System.out.println(digit[i]);
+        }
 
+
+        
+ } 
+}
        
     
