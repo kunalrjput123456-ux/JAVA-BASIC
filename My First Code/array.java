@@ -75,21 +75,19 @@
 //  } 
 // }
        
-    public class array {
-    public static void main(String[] args) {
+//     public class array {
+//     public static void main(String[] args) {
 
-        // Array banaya jisme 5 numbers store honge
-        int[] numbers = {10, 20, 30, 40, 50};
+//         int[] numbers = {10, 20, 30, 40, 50};
 
-        // Array ke elements print karna
-        System.out.println("First element: " + numbers[0]);
-        System.out.println("Second element: " + numbers[1]);
+        
+//         System.out.println("First element: " + numbers[0]);
+//         System.out.println("Second element: " + numbers[1]);
 
-        // Loop se saare elements print karna
-        System.out.println("\nAll Array Elements:");
+//         System.out.println("\nAll Array Elements:");
 
-        for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Index " + i + " = " + numbers[i]);
-        }
-    }
-}
+//         for (int i = 0; i < numbers.length; i++) {
+//             System.out.println("Index " + i + " = " + numbers[i]);
+//         }
+//     }
+// }
