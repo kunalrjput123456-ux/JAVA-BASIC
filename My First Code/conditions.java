@@ -9,8 +9,12 @@
 //     }
 // }
 
+//------------------------------------------------------------------------------------------------------------------------------------------
 
+// import java.util.*;
+// public class conditions {
 
+<<<<<<< HEAD
 // import java.util.*;
 // public class conditions {
 
@@ -21,12 +25,22 @@
 //         if(age>=18){
 //         System.out.println("Adult");
 
+=======
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System.in);
+//         int age = sc.nextInt();
+
+//         if(age>=18){
+//         System.out.println("Adult");
+
+>>>>>>> 72c700d36504ffb84ea1552dad15973f393568b7
 //     } else{
 //         System.out.println("Not Adults");
 //     }
 //     }
 // }
 
+//-----------------------------------------------------------------------------------------------------------------------------------
 
 // import java.util.*;
 
