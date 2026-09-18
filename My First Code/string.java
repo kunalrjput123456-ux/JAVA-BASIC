@@ -66,27 +66,61 @@
 
 // ------------------------------------------------------------------------------------------------------------------------------------
 
- import java.util.*;
-public class string { 
-    public static void main(String[] args){
-        Scanner sc = new Scanner (System.in);
-        System.out.println("Enter string:");
-        String name = sc.nextLine();
+//  import java.util.*;
+// public class string { 
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter string:");
+//         String name = sc.nextLine();
 
-        String reverse = "";
+//         String reverse = "";
 
 
-        for(int i=name.length()-1;i>=0; i--){
-            System.out.println(name.charAt(i));
-            reverse= reverse +name.charAt(i);
-        } 
-        System.out.println("Reverse of string is: "+reverse);
-        System.out.println("Length of string is: "+name.length());
-        if(name.equals(reverse)){
-            System.out.println("String is palindrome");
-    }else{
-        System.out.println("String is not palindrome");
-    }
-    }
+//         for(int i=name.length()-1;i>=0; i--){
+//             System.out.println(name.charAt(i));
+//             reverse= reverse +name.charAt(i);
+//         } 
+//         System.out.println("Reverse of string is: "+reverse);
+//         System.out.println("Length of string is: "+name.length());
+//         if(name.equals(reverse)){
+//             System.out.println("String is palindrome");
+//     }else{
+//         System.out.println("String is not palindrome");
+//     }
+//     }
 
+// }
+//------------------------------------------------------------------------------------------------------------------------------------
+
+
+import java.util.*;
+public class string {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner (System .in );
+        System.out.println("Enter your string Length: ");
+        int input = sc.nextInt();
+        sc.nextLine();
+        String[] order = new String [input];
+        for(int i=0; i<input;i++){
+            System .out .print("Enter your string:"+ (i+1));
+            order[i]  = sc.nextLine();
+        }
+        for(int i=0; i<input-1;i++){
+            for(int j=i+1;j<input;j++){
+                if(order[i].compareTo(order[j])>0){
+                    String temp = order[i];
+                    order[i] = order[j];
+                    order[j] = temp;
+                }
+            }
+           
+        }
+        System.out.println("The sorted strings are:");
+        for(int i=0; i<input;i++){
+            System.out.println(order[i]);
+        
+
+
+        }
+}
 }
