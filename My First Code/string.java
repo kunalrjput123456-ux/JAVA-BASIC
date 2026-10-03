@@ -1,35 +1,35 @@
-public class string {
-    public static void main(String[] args){
-        String name = "KUNAL";
-        String name1 = "BHUMI ";
-        System.out.println(name +" "+ name1);
+// public class string {
+//     public static void main(String[] args){
+//         String name = "KUNAL";
+//         String name1 = "BHUMI ";
+//         System.out.println(name +" "+ name1);
 
-    }
+//     }
     
-}
+// }
 
------------------------------------------------------------------------------------------------------------------------------------
-import java .util.*;
-public class string{
-    public static void main (String[] args ){
-        Scanner Sc = new Scanner (System.in);
-        System.out.println("Enter your String length:");
-        int Stringlength = Sc.nextInt();
-       String[] name = new String[Stringlength];
+// -----------------------------------------------------------------------------------------------------------------------------------
+// import java .util.*;
+// public class string{
+//     public static void main (String[] args ){
+//         Scanner Sc = new Scanner (System.in);
+//         System.out.println("Enter your String length:");
+//         int Stringlength = Sc.nextInt();
+//        String[] name = new String[Stringlength];
         
-        {
-            System.out.println("Enter your String Data:");
-        for(int i=0; i<Stringlength; i++){
-            name[i] = Sc.nextLine();
+//         {
+//             System.out.println("Enter your String Data:");
+//         for(int i=0; i<Stringlength; i++){
+//             name[i] = Sc.nextLine();
            
-        }
-        for(int i=0; i<Stringlength; i++){
-            System.out.println(name[i]);
-        }
+//         }
+//         for(int i=0; i<Stringlength; i++){
+//             System.out.println(name[i]);
+//         }
         
-    }
-}
-}
+//     }
+// }
+// }
 
 -----------------------------------------------------------------------------------------------------------------------------------
 
@@ -64,63 +64,63 @@ public class string {
     }
 }
 
-------------------------------------------------------------------------------------------------------------------------------------
+// ------------------------------------------------------------------------------------------------------------------------------------
 
- import java.util.*;
-public class string { 
-    public static void main(String[] args){
-        Scanner sc = new Scanner (System.in);
-        System.out.println("Enter string:");
-        String name = sc.nextLine();
+//  import java.util.*;
+// public class string { 
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner (System.in);
+//         System.out.println("Enter string:");
+//         String name = sc.nextLine();
 
-        String reverse = "";
-
-
-        for(int i=name.length()-1;i>=0; i--){
-            System.out.println(name.charAt(i));
-            reverse= reverse +name.charAt(i);
-        } 
-        System.out.println("Reverse of string is: "+reverse);
-        System.out.println("Length of string is: "+name.length());
-        if(name.equals(reverse)){
-            System.out.println("String is palindrome");
-    }else{
-        System.out.println("String is not palindrome");
-    }
-    }
-
-}
-------------------------------------------------------------------------------------------------------------------------------------
+//         String reverse = "";
 
 
-import java.util.*;
-public class string {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner (System .in );
-        System.out.println("Enter your string Length: ");
-        int input = sc.nextInt();
-        sc.nextLine();
-        String[] order = new String [input];
-        for(int i=0; i<input;i++){
-            System .out .print("Enter your string:"+ (i+1));
-            order[i]  = sc.nextLine();
-        }
-        for(int i=0; i<input-1;i++){
-            for(int j=i+1;j<input;j++){
-                if(order[i].compareTo(order[j])>0){
-                    String temp = order[i];
-                    order[i] = order[j];
-                    order[j] = temp;
-                }
-            }
+//         for(int i=name.length()-1;i>=0; i--){
+//             System.out.println(name.charAt(i));
+//             reverse= reverse +name.charAt(i);
+//         } 
+//         System.out.println("Reverse of string is: "+reverse);
+//         System.out.println("Length of string is: "+name.length());
+//         if(name.equals(reverse)){
+//             System.out.println("String is palindrome");
+//     }else{
+//         System.out.println("String is not palindrome");
+//     }
+//     }
+
+// }
+// ------------------------------------------------------------------------------------------------------------------------------------
+
+
+// import java.util.*;
+// public class string {
+//     public static void main(String[] args) {
+//         Scanner sc = new Scanner (System .in );
+//         System.out.println("Enter your string Length: ");
+//         int input = sc.nextInt();
+//         sc.nextLine();
+//         String[] order = new String [input];
+//         for(int i=0; i<input;i++){
+//             System .out .print("Enter your string:"+ (i+1));
+//             order[i]  = sc.nextLine();
+//         }
+//         for(int i=0; i<input-1;i++){
+//             for(int j=i+1;j<input;j++){
+//                 if(order[i].compareTo(order[j])>0){
+//                     String temp = order[i];
+//                     order[i] = order[j];
+//                     order[j] = temp;
+//                 }
+//             }
            
-        }
-        System.out.println("The sorted strings are:");
-        for(int i=0; i<input;i++){
-            System.out.println(order[i]);
+//         }
+//         System.out.println("The sorted strings are:");
+//         for(int i=0; i<input;i++){
+//             System.out.println(order[i]);
         
 
 
-        }
-}
-}
+//         }
+// }
+// }
